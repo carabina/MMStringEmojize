@@ -1,0 +1,6 @@
+#!/bin/bash
+CMD_PATH=`dirname $0`
+cd $CMD_PATH
+pod spec lint
+pod trunk push
+exit 0
